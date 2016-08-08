@@ -8,9 +8,6 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import configureStore from './store/configureStore';
 
-import '../node_modules/bootstrap/less/bootstrap.less';
-import './assets/custom.less';
-
 require('babel-polyfill');
 
 const store = configureStore();
